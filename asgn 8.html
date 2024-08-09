@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms and Radio bittons.</title>
+    <style>
+        body {
+            margin: 10px;
+            padding: 15px;
+        }
+
+        body h1 {
+            color: #6734db;
+            font-size: 200;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            border: 2px solid #030202;
+            padding:15px;
+            margin:20px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <form action="#" method="post">
+        <lable for="name">Name:</lable><br>
+        <input type="text" id="name" name="name" placeholder="Enter your username"><br>
+
+
+        <lable for="Gender">Gender:</lable><br>
+        
+        <input type="radio" id="male" name="gender" value="male" required>
+        <lable for="male">Male</lable><br>
+
+       
+        <input type="radio" id="female" name="gender" value="female" required>
+        <lable for="female">Female</lable><br>
+
+        <input type="radio" id="other" name="gender" value="other" required>
+
+        <label for="other">Other</label><br><br>
+
+
+
+        <label for="country">Country:</label><br>
+
+        <select id="country" name="country"  required>
+            <option value="">Select country</option>
+            <option value="Canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="united kingdom">United kingdom</option>
+            <option value="uae">UAE</option>
+            <option value="london">London</option>
+            <option value="qatar">Qatar</option>
+            <option value="kuwait">Kuwait</option>
+            <option value="africa">Africa</option>
+            <option value="japan">Japan</option>
+
+        </select><br><br>
+
+        <input type="submit" value="submit">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
